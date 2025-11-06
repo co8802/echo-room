@@ -1,15 +1,15 @@
-# Echo Room 🎮  
+# Echo Room
 
-A small Unity prototype exploring basic **player movement, lighting, and a “ghost replay” mechanic** that records and replays your past motion.  
-Built while learning game-engine scripting and real-time interaction.
+A small Unity prototype that explores basic player movement, lighting, and a simple ghost replay mechanic that records and replays your past motion.  
+I built this project while teaching myself game engine scripting and real-time interaction.
 
-## Demo
-- Move with **W A S D**, look with mouse  
-- Press **R** to replay your ghost trail  
+## How it works
+- Move with WASD and look around with the mouse  
+- Press R to spawn a ghost that retraces your movements  
 
-## Tech
+## Tools and setup
 - Unity 2022 LTS  
-- C# scripts: `PlayerMovement`, `EchoRecorder`, `EchoGhost`  
+- C# scripts: PlayerMovement, EchoRecorder, EchoGhost  
 
 ## Notes
-Made as a short experiment to understand camera control, player input, and object instantiation.  
+This was an independent learning project to understand how player input, camera control, and object instantiation work together in Unity.
